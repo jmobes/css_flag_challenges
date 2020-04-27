@@ -47,13 +47,71 @@ body {
 }
 
 /* Ireland */
-
+#ireland {
+  display: flex;
+}
+.ireland-green {
+  background-color: green;
+  width: 100%;
+}
+.ireland-white {
+  background-color: white;
+  width: 100%;
+}
+.ireland-orange {
+  background-color: orange;
+  width: 100%;
+}
 
 /* France */
-
+#france {
+  font-size: 0;
+}
+.france-blue {
+  display: inline-block;
+  height: 100%;
+  background-color: blue;
+  width: 33%;
+}
+.france-white {
+  display: inline-block;
+  height: 100%;
+  background-color: white;
+  width: 33%;
+}
+.france-red {
+  display: inline-block;
+  height: 100%;
+  background-color: red;
+  width: 33%;
+}
 
 /* Benin */
-
+.benin-first-col {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+.benin-second-col {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+.benin-green {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+.benin-yellow {
+  width: 100%;
+  height: 50%;
+  background-color: yellow;
+}
+.benin-red {
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
 
 /* Sweden */
 
