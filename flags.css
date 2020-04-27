@@ -1,101 +1,116 @@
-/* Indonesia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  width: 100%;
+  height: 100%;
   background-color: black;
+  padding: 5px;
 }
-#indonesia {
-  border: 3px solid black
+#indonesia, #colombia, #ireland, #france, #benin, #sweden, #switzerland, #tonga, #japan, #canada, #norway, #greece, #somalia, #chile, #turkey, #china, #cuba, #western_sahara, #kuwait, #venezuela, #trinidad_and_tobago, #united_kingdom, #new_zealand, #united_states, #seychelle {
+  width: 100%;
+  height: calc(100vh - 10px);
+  margin-bottom: 5px;
 }
-#indonesia .red {
-  height: 300px;
-  background-color: red;
+/* Indonesia */
+
+.indonesia-red {
+  width: 100%;
+  height: 50%;
+  background: red;
 }
-#indonesia .white {
-  height: 300px;
-  background-color: white;
+.indonesia-white {
+  width: 100%;
+  height: 50%;
+  background: white;
 }
 
 /* Colombia */
-#columbia {
-  height: 600px;
-  border: 3px solid black;
-}
-#columbia .yellow {
+
+.colombia-yellow {
+  width: 100%;
   height: 50%;
   background-color: yellow;
 }
-#columbia .blue {
+.colombia-blue {
+  width: 100%;
   height: 25%;
   background-color: blue;
 }
-#columbia .red {
+.colombia-red {
+  width: 100%;
   height: 25%;
   background-color: red;
 }
-
 
 /* Ireland */
 #ireland {
   display: flex;
-  border: 3px solid black;
-  height: 600px;
 }
-#ireland .green {
-  width: 100%;
+.ireland-green {
   background-color: green;
-}
-#ireland .white {
   width: 100%;
+}
+.ireland-white {
   background-color: white;
-}
-#ireland .orange {
   width: 100%;
+}
+.ireland-orange {
   background-color: orange;
+  width: 100%;
 }
 
 /* France */
 #france {
-  height: 600px;
-  border: 3px solid black;
-  display: flex;
+  font-size: 0;
 }
-#france .blue {
-  width:100%;
+.france-blue {
+  display: inline-block;
+  height: 100%;
   background-color: blue;
+  width: 33%;
 }
-#france .white {
-  width:100%;
+.france-white {
+  display: inline-block;
+  height: 100%;
   background-color: white;
+  width: 33%;
 }
-#france .red {
-  width:100%;
+.france-red {
+  display: inline-block;
+  height: 100%;
   background-color: red;
+  width: 33%;
 }
 
 /* Benin */
-#benin {
-  height: 600px;
-  border: 3px solid black;
-}
-#benin .left {
-  height: 600px;
-  background-color: green;
+.benin-first-col {
+  width: 35%;
+  height: 100%;
   float: left;
-  width: 50%;
 }
-#benin .right {
-  width: 60%;
+.benin-second-col {
+  width: 65%;
+  height: 100%;
+  float: left;
 }
-#benin .right .yellow {
-  height : 600px;
+.benin-green {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+.benin-yellow {
+  width: 100%;
+  height: 50%;
   background-color: yellow;
-  float: right;
-  width: 25%;
 }
-#benin .right .red {
-  height: 600px;
+.benin-red {
+  width: 100%;
+  height: 50%;
   background-color: red;
-  float: right;
-  width: 25%;
 }
 
 /* Sweden */
