@@ -114,9 +114,70 @@ body {
 }
 
 /* Sweden */
+.sweden-yellow {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255,208,0);
+  position: relative;
+}
+.sweden-first-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40%;
+  width: 30%;
+  background-color: rgb(0, 103, 170);
+}
+.sweden-second-blue {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  height: 40%;
+  width: 60%;
+  background-color: rgb(0, 103, 170);
+}
+.sweden-third-blue {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  height: 40%;
+  width: 60%;
+  background-color: rgb(0, 103, 170);
+}
+.sweden-fourth-blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40%;
+  width: 30%;
+  background-color: rgb(0, 103, 170);
+}
 
 /* Switzerland */
-
+.switz-red {
+  height: 100%;
+  width: 100%;
+  background: rgb(255,0,0);
+  position: relative;
+}
+.switz-vert-cross {
+  height: 75%;
+  width: 16.66%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255,255,255);
+  transform: translate(-50%, -50%);
+}
+.switz-horiz-cross {
+  height: 25%;
+  width: 55%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255,255,255);
+  transform: translate(-50%, -50%);
+}
 /* Tonga */
 
 /* Japan */
