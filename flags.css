@@ -224,6 +224,26 @@ body {
   background-color: red;
 }
 /* Canada */
+.canada-red {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+.canada-white {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+.canada-leaf {
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(28.5deg);
+}
 
 /* Norway */
 
