@@ -162,7 +162,7 @@ body {
 }
 .switz-vert-cross {
   height: 75%;
-  width: 16.66%;
+  width: 16%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -170,8 +170,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .switz-horiz-cross {
-  height: 25%;
-  width: 55%;
+  height: 26%;
+  width: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -179,10 +179,71 @@ body {
   transform: translate(-50%, -50%);
 }
 /* Tonga */
-
+.tonga-red {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  position: relative;
+}
+.tonga-white {
+  height: 50%;
+  width: 40%;
+  background-color: white;
+  position: relative;
+}
+.tonga-cross-x {
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+.tonga-cross-y {
+  width: 15%;
+  height: 65%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
 /* Japan */
-
+.japan-white {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.japan-circle {
+  height: 60%;
+  width: 30%;
+  border-radius: 50%;
+  margin: auto;
+  background-color: red;
+}
 /* Canada */
+.canada-red {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+.canada-white {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+.canada-leaf {
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(28.5deg);
+}
 
 /* Norway */
 
