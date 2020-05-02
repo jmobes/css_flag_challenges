@@ -335,6 +335,21 @@ body {
   bottom: 0;
 }
 /* Somalia */
+.somalia-blue {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(53,121,224);
+  position: relative;
+}
+.somalia-star {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 30em;
+}
+
 
 /* Chile */
 
