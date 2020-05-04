@@ -382,11 +382,39 @@ body {
   grid-column: 1/4;
   background-color: rgb(234,0,0);
 }
-
-
-
 /* Turkey */
-
+.turkey-red {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255,0,0);
+  position: absolute;
+}
+.turkey-white-moon {
+  height: 50%;
+  width: 25%;
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.turkey-red-overlay {
+  height: 43%;
+  width: 20%;
+  position: absolute;
+  left: 21%;
+  top: 28%;
+  border-radius: 50%;
+  background-color: rgb(255,0,0);
+}
+.turkey-white-star {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  color: #fff;
+  font-size: 15em;
+  transform: rotateZ(50deg);
+}
 /* China */
 
 /* Cuba */
