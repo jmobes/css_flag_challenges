@@ -387,7 +387,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgb(255,0,0);
-  position: absolute;
+  position: relative;
 }
 .turkey-white-moon {
   height: 50%;
@@ -416,7 +416,51 @@ body {
   transform: rotateZ(50deg);
 }
 /* China */
-
+.china-red {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255,0,0);
+}
+.china-star-ctn {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+.china-star-big, .china-star-sm {
+  color: rgb(255,255,0);
+}
+.china-star-big {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  font-size: 15em;
+}
+.china-star-sm {
+  font-size: 4em;
+}
+.sm-1 {
+  position: absolute;
+  top: 5%;
+  left: 42.5%;
+  transform: rotateZ(20deg);
+}
+.sm-2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: rotateZ(45deg);
+}
+.sm-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.sm-4 {
+  position: absolute;
+  top: 70%;
+  left: 42.5%;
+  transform: rotateZ(15deg);
+}
 /* Cuba */
 
 /* Western Sahara */
