@@ -64,26 +64,25 @@ body {
 }
 
 /* France */
-#france {
-  font-size: 0;
+.france-ctn {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 .france-blue {
-  display: inline-block;
-  height: 100%;
   background-color: blue;
-  width: 33%;
+  height: 100%;
+  width: 100%;
 }
 .france-white {
-  display: inline-block;
-  height: 100%;
   background-color: white;
-  width: 33%;
+  height: 100%;
+  width: 100%;
 }
 .france-red {
-  display: inline-block;
-  height: 100%;
   background-color: red;
-  width: 33%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Benin */
@@ -488,13 +487,57 @@ body {
 }
 .cuba-star {
   position: absolute;
-  top: 20%;
-  left: 5%;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -50%);
   color: rgb(255,255,255);
   font-size: 15em;
 }
 /* Western Sahara */
-
+.ws-ctn {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.ws-black {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(0,0,0);
+}
+.ws-white {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(255,255,255);
+}
+.ws-green {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(0,129,64);
+}
+.ws-red-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 0% 100%, 35% 50%);
+  background-color: rgb(216,0,0);
+}
+.ws-red-moon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  height: 33%;
+  width: 20%;
+}
+.ws-red-moon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* Kuwait */
 
 /* Venezuela */
