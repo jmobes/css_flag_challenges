@@ -555,7 +555,22 @@ body {
   color: rgb(216,0,0);
 }
 /* Kuwait */
-
+.kuwait-ctn {
+  height: 100%;
+  width: 100%;
+}
+.kuwait-green {
+  width: 100%;
+  height: 33%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  background-color: green;
+}
+.kuwait-black {
+  height: 100%;
+  width: 40%;
+  clip-path: polygon(0 0, 100% 35%, 100% 71%, 0 100%);
+background-color: black;
+}
 /* Venezuela */
 
 /* Trinidad And Tobago */
