@@ -559,11 +559,17 @@ body {
   height: 100%;
   width: 100%;
 }
-.kuwait-green {
+.kuwait-first-stripe {
   width: 100%;
   height: 33%;
+  display: flex;
+}
+.kuwait-green {
+  width: 100%;
+  height: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
   background-color: green;
+  flex-basis: 100%;
 }
 .kuwait-black {
   height: 100%;
