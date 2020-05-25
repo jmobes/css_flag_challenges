@@ -577,8 +577,27 @@ body {
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
   background-color: rgb(227,0,0);
 }
-/* Venezuela */
 
+/* Venezuela */
+.venez-ctn {
+  height: 100%;
+  width: 100%;
+}
+.venez-yellow {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(255,208,0);
+}
+.venez-blue {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(21,12,127);
+}
+.venez-red {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(228,0,0);
+}
 /* Trinidad And Tobago */
 
 /* United Kingdom */
