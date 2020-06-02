@@ -608,6 +608,15 @@ body {
   margin-top: 1em;
   margin-left: 1em;
 }
+.venez-star-ctn {
+  height: 100%;
+  width: 10%;
+  margin: 0 auto;
+}
+.venez-star {
+  color: #fff;
+  font-size: 2em;
+}
 /* Trinidad And Tobago */
 
 /* United Kingdom */
