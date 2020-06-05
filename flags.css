@@ -617,7 +617,7 @@ body {
 }
 .venez-star {
   color: #fff;
-  font-size: 4em;
+  font-size: 4.5em;
   position: absolute;
 }
 .v1 {
@@ -625,25 +625,28 @@ body {
   left: 0;
 }
 .v2 {
-  bottom: 25%;
-  left: 8%;
+  bottom: 27%;
+  left: 10%;
 }
 .v3 {
-  bottom: 50%;
-  left: 17%;
+  bottom: 49%;
+  left: 21%;
 }
 .v4 {
-
+  bottom: 60%;
+  left: 36%;
 }
 .v5 {
-
+  bottom: 60%;
+  right: 36%;
 }
 .v6 {
-
+  bottom: 49%;
+  right: 21%;
 }
 .v7 {
-  bottom: 15%;
-  right: 3%;
+  bottom: 27%;
+  right: 10%;
 }
 .v8 {
   bottom: 0;
