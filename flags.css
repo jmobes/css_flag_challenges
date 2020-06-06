@@ -612,7 +612,6 @@ body {
   height: 100%;
   width: 40%;
   margin: 0 auto;
-  background-color: purple;
   position: relative;
 }
 .venez-star {
@@ -627,26 +626,33 @@ body {
 .v2 {
   bottom: 27%;
   left: 10%;
+  transform: rotateZ(25deg);
 }
 .v3 {
   bottom: 49%;
   left: 21%;
+  transform: rotateZ(40deg);
 }
 .v4 {
   bottom: 60%;
   left: 36%;
+  transform: rotateZ(-10deg);
+
 }
 .v5 {
   bottom: 60%;
   right: 36%;
+  transform: rotateZ(10deg);
 }
 .v6 {
   bottom: 49%;
   right: 21%;
+  transform: rotateZ(-40deg);
 }
 .v7 {
   bottom: 27%;
   right: 10%;
+  transform: rotateZ(-25deg);
 }
 .v8 {
   bottom: 0;
