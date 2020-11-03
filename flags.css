@@ -659,7 +659,22 @@ body {
   right: 0;
 }
 /* Trinidad And Tobago */
+.tat-ctn {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  overflow: hidden;
+}
+.tat-white {
+  width: 30%;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+  transform: skew(60deg);
+}
+.tat-black {
 
+}
 /* United Kingdom */
 
 /* New Zealand */
