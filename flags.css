@@ -670,10 +670,13 @@ body {
   height: 100%;
   background: #fff;
   margin: 0 auto;
-  transform: skew(60deg);
+  transform: skew(56deg);
 }
 .tat-black {
-
+  width: 60%;
+  height: 100%;
+  background: #000;
+  margin: 0 auto;
 }
 /* United Kingdom */
 
