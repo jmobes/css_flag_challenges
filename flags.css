@@ -679,7 +679,19 @@ body {
   margin: 0 auto;
 }
 /* United Kingdom */
-
+.uk-ctn {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.horiz {
+  background: white;
+  height: 33.33%;
+}
+.horiz-red {
+  height: 80%;
+  background: red;
+}
 /* New Zealand */
 
 /* United States */
