@@ -682,15 +682,18 @@ body {
 .uk-ctn {
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 .horiz {
   background: white;
   height: 33.33%;
+  position: relative;
 }
 .horiz-red {
   height: 80%;
   background: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 /* New Zealand */
 
