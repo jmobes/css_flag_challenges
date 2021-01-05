@@ -700,15 +700,20 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 10;
   clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
-/* .uk-top-left-triangle-top {
-
+.uk-top-left-triangle-top {
+  height: 70%;
+  width: 40%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 .uk-top-left-red-stripe {
 
-} */
+}
 /* New Zealand */
 
 /* United States */
