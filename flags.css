@@ -682,16 +682,33 @@ body {
 .uk-ctn {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  background-color: orange;
+  position: relative;
 }
-.horiz {
-  background: white;
-  height: 33.33%;
+.uk-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33%;
+  width: 40%;
+  background-color: white;
 }
-.horiz-red {
-  height: 80%;
-  background: red;
+.uk-top-left-triangle-bot {
+  height: 70%;
+  width: 40%;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
+/* .uk-top-left-triangle-top {
+
+}
+.uk-top-left-red-stripe {
+
+} */
 /* New Zealand */
 
 /* United States */
